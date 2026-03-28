@@ -1,0 +1,23 @@
+span {
+    color: rgb(141, 32, 243);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(241, 97, 7);
+}
+
+footer {
+    text-align: center;
+}
+
+.colorgreen {
+    color: green;
+}
