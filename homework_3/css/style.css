@@ -1,0 +1,60 @@
+.header {
+    color: rgb(165, 100, 226);
+}
+
+h1 {
+    color: rgb(94, 3, 3);
+}
+
+#green {
+    color: rgb(3, 167, 3);
+}
+
+[class*="xt"]{
+	color: rgb(47, 0, 255);
+}
+
+div.content {
+    color: rgb(110, 110, 5);
+}
+
+.title,
+.title_block-2 {
+    color: rgb(216, 6, 6);
+}
+
+.info__block-2 p {
+    color: rgb(196, 133, 16);
+}
+
+.block-2 .text-2 {
+   color: aquamarine;
+}
+
+.block-3 * {
+    color: blue;
+}
+
+.block-4 > p {
+    color: rgb(226, 14, 216);
+}
+
+.description ~ p {
+    color: rgb(198, 24, 24);
+}
+
+.description-two + p {
+    color: blue;
+}
+
+.title-two {
+    color: rgb(188, 107, 8);
+}
+
+.title-two + p {
+    color: rgb(1, 103, 1);
+}
+
+.copyright {
+    color: rgb(76, 221, 9);
+}
