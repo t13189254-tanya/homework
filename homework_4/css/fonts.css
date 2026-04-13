@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Futura;
+    src: url("../fonts/FuturaLightC.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: Futura;
+    src: url("../fonts/FuturaMediumC.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: Futura;
+    src: url("../fonts/FuturaDemiC-Italic.woff2");
+    font-weight: 400;
+    font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Objectivity;
+    src: url("../fonts/Objectivity-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: Objectivity;
+    src: url("../fonts/Objectivity-RegularSlanted.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: Objectivity;
+    src: url("../fonts/Objectivity-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: Objectivity;
+    src: url("../fonts/Objectivity-ExtraBold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+	font-display: swap;
+}
