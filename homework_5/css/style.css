@@ -1,0 +1,175 @@
+ body {
+    background-color: rgb(217, 214, 239);
+ }
+ 
+ h1 {
+    color: rgb(133, 30, 228);
+    font-size: 60px;
+ }
+ 
+ .block1 {
+    background-color: rgb(28, 190, 190);
+    padding: 20px;
+ }
+ .title {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(211, 19, 19);
+    text-shadow: 2px 2px 2px #e05151;
+ }
+
+ .block2 {
+    background-color: rgb(34, 34, 231);
+    padding: 10px 20px;
+ }
+
+ .block3 {
+    background-color: rgb(120, 209, 31);
+    padding: 20px 35px 40px;
+ }
+
+ .block4 {
+    background-color: rgb(115, 230, 115);
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+ .block5 {
+    background-color: rgb(209, 82, 209);
+    margin: 30px;
+ }
+
+ .block6 {
+    background-color: rgb(116, 103, 103);
+    margin: 10px 15px;
+ }
+
+ .block7 {
+    background-color: rgb(116, 223, 223);
+    margin: 10px 15px 20px 15px;
+ }
+
+ .block8 {
+    background-color: rgb(222, 114, 74);
+    width: 500px;
+    margin: 0 auto;
+ }
+
+ .title2 {
+    color: rgb(18, 18, 192);
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+ }
+
+ .block9 {
+    background-color: rgb(255, 0, 166);
+    max-width: 600px;
+    margin: 0 auto;
+ }
+
+ .block10 {
+    background-color: #ba1515;
+    min-width: 300px;
+    margin: 0 auto;
+ }
+
+ .block11 {
+    background-color: rgb(137, 136, 136);
+    min-height: 200px;
+ }
+
+ .block12 {
+    background-color: rgb(213, 126, 13);
+    max-height: 500px;
+ }
+
+ .block13 {
+    background-color: rgb(246, 102, 174);
+    max-height: 150px;
+    overflow: hidden;
+ }
+
+ .block14 {
+    background-color: rgb(137, 181, 181);
+    max-height: 150px;
+    overflow: scroll;
+ }
+
+ .block15 {
+    background-color: rgb(144, 222, 66);
+    max-height: 150px;
+    overflow: auto;
+ }
+
+ .block16 {
+    background-color: rgb(105, 105, 105);
+ }
+
+ .block16 .title {
+    color: rgb(9, 9, 9);
+    text-shadow: 2px 2px 2px #3a3434;
+ }
+
+ .inline {
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+ .inline2 {
+    background-color: #4d4141;
+    max-width: 400px;
+    display: block;
+    margin-bottom: 20px;
+ }
+
+
+ .maket {
+   font-family: Poppins, sans-serif;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   font-size: 16px;
+   font-weight: 700;
+ }
+
+ .maket_container {
+   max-width: 643px;
+   background-color: #FFF3E3;
+   margin: 0 auto;
+   padding: 62px 43px 37px 39px;
+ }
+
+
+ .content__text1 {
+   line-height: 1.5;
+   letter-spacing: 3px;
+   font-weight: 600;
+   text-transform: capitalize;
+   margin-bottom: 4px;
+ }
+
+ .content__title {
+   color: #B88E2F;
+   font-size: 52px;
+   line-height: 1.25;
+   text-transform: capitalize;
+   margin-bottom: 17px;
+ }
+
+ .content__text2 {
+   font-size: 18px;
+   line-height: 1.33;
+   color: #333333;
+   margin-bottom: 46px;
+   font-weight: 500;
+ }
+
+
+ .button {
+   background-color: #B88E2F;
+   padding: 25px 72px;
+   color: #FFFFFF;
+   text-transform: uppercase;
+   text-align: center;
+   line-height: 1.5;
+ }
