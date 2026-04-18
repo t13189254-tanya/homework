@@ -173,3 +173,10 @@
    text-align: center;
    line-height: 1.5;
  }
+
+footer {
+ text-align: center;
+ font-size: 20px;
+ color: #FFFFFF;
+ background-color: #B88E2F;
+}
