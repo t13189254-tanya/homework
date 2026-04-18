@@ -167,7 +167,8 @@
 
  .button {
    background-color: #B88E2F;
-   padding: 25px 72px;
+   min-width: 222px;
+   padding: 25px;
    color: #FFFFFF;
    text-transform: uppercase;
    text-align: center;
