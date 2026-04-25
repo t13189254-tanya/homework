@@ -1,0 +1,230 @@
+body {
+   background-color: rgba(255, 0, 195, 0.104);
+} 
+ 
+ .border-style1,
+ .border-style2,
+ .border-radius-style,
+ .circle,
+ .box-shadow-style1,
+ .box-shadow-style2,
+ .opacity-style,
+ .outline-style {
+   padding: 30px;
+   margin: 40px;
+ }
+
+ header {
+   background-image: url(../img/header.jpg);
+   min-height: 130px;
+   background-attachment: fixed;
+   
+ }
+
+ h1 {
+   font-size: 60px;
+   line-height: 0.5;
+   text-align: center;
+   color: rgb(192 113 179);
+   text-shadow: 2px 2px 4px rgba(9, 9, 9, 0.7);
+   padding: 30px;
+ }
+ 
+ h2 {
+   font-size: 50px;
+   text-align: center;
+   color: rgb(165, 42, 42);
+ }
+ 
+ .border-style1 {
+  border: 5px solid rgb(37, 215, 46);
+ }
+
+ .border-style2 {
+  border-top: 5px solid rgb(14, 14, 243);
+  border-right: 5px dotted rgb(14, 14, 14);
+  border-bottom: 5px double rgb(255, 192, 203);
+  border-left: 5px dashed rgb(154, 205, 50);
+ }
+
+ 
+ .outline-style {
+   border: 3px dotted rgb(238, 130, 238);
+   outline: 10px solid rgb(18, 188, 18);
+ }
+
+.border-radius-style {
+   background-color: rgb(127, 255, 212);
+   border-radius: 10px;
+}
+
+
+.circle {
+   width: 200px;
+   height: 200px;
+   background-color: rgb(28, 28, 237);
+   border-radius: 50%;
+   margin: 0 auto;
+}
+
+.box-shadow-style1 {
+    box-shadow: 20px 13px 48px -10px rgba(219, 20, 20, 0.72);
+}
+
+.box-shadow-style2 {
+   box-shadow: inset 20px 13px 48px -10px rgba(143, 219, 20, 0.72);
+}
+
+.opacity-style {
+   opacity: 0.5;
+   border: 3px solid rgb(0, 0, 0);
+}
+
+.visibility-style {
+   visibility: hidden;
+}
+
+
+.background-style1 {
+   background-image: url(../img/photo1.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   min-height: 700px;   
+   color: rgba(255, 255, 255, 0.863);
+   margin-bottom: 20px;
+}
+
+.background-style2 {
+   background-image: url(../img/photo2.png);
+   background-repeat: repeat-y;
+   min-height: 700px;
+}
+
+
+.background-style3 {
+   background-image: url(../img/photo2.png);
+   background-repeat: repeat-x;
+   min-height: 700px;
+}
+
+.background-style4 {
+   background: url("../img/photo1.jpg") no-repeat 0 0 / 200px, 
+linear-gradient(55.95deg, rgba(143, 58, 255, 0.211) 0%, rgba(247, 94, 5, 0.3) 100%), 
+url("../img/photo2.png") no-repeat right top / 800px;
+min-height: 700px;
+margin-bottom: 20px;
+}
+
+.maket-block1 {
+   font-family: Poppins, sans-serif;
+   max-width: 1440px;
+   min-height: 316px;
+   padding: 61px;
+   text-align: center;
+   background-image: url(../img/rectangle.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0 auto;
+   margin-bottom: 10px;
+}
+
+
+.title1 {
+   font-size: 48px;
+   line-height: 1.5;
+   font-weight: 500;
+}
+
+.photo {
+   margin: 0 6px;
+   vertical-align: middle;
+}
+
+.checkout-link,
+.link-home {
+   line-height: 1.5;
+}
+
+.checkout-link {
+   font-weight: 300;
+}
+
+.maket-block2 {
+   background-image: url(../img/header2.png);
+   background-color: black;
+   max-width: 1440px;
+   min-height: 342px;
+   margin: 0 auto;
+   background-size: cover;
+   text-align: center;
+   padding: 94px;
+   margin-bottom: 20px;
+}
+
+.title2 {
+   font-size: 64px;
+   line-height: 1.5;
+   color: #F9EFEC;
+   font-family: Barlow, sans-serif;
+   font-weight: 800;
+   text-transform: uppercase;
+   margin-bottom: 17px;
+}
+
+.button {
+   background-color: #0A84FF;
+   color: #FFFFFF;
+   padding: 13px;
+   max-width: 235px;
+   min-width: 50px;
+   border-radius: 12px;
+   margin: 0 auto;
+}
+
+a {
+   font-size: 16px;
+   line-height: 1.5;
+   font-family: Roboto Flex, sans-serif;
+   font-weight: 500;
+   text-transform: capitalize;
+}
+
+.maket-block3 {
+   background-color: #1A1A1A;
+   color: #B3B3B2;
+   max-width: 834px;
+   padding: 32px;
+   margin: 0 auto;
+   border-radius: 12px;
+   font-family: Barlow, sans-serif;
+}
+
+.maket-block3 h4 {
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 1.5;
+   margin-bottom: 12px;
+   color: #F9EFEC;
+   text-transform: uppercase;
+}
+
+.maket-block3 p {
+   margin-bottom: 24px;
+}
+
+
+.maket-block3 li {
+   margin-bottom: 24px;
+   background: url("../img/frame81.svg") 0 0 / 16px no-repeat;
+   padding-left: 26px;
+   line-height: 1.5;
+   min-height: 16px;
+}
+
+footer {
+   background-color: #4106cc;
+   color: #B3B3B2;
+   padding: 30px;
+   margin-top: 10px;
+   text-align: center;
+}
